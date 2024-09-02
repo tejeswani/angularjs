@@ -1,0 +1,18 @@
+#img {
+    background-image: url("src/assets/Images/netflix-login-page.jpg");
+    height:100rem;
+    text-align: center;
+}
+
+.newStyle{
+    background-color: rgb(255, 255, 255);
+    width:252px;
+    height: 100px;
+    text-align: justify;
+    
+}
+label {
+    width:200px;
+    height: 25px;
+    display: inline-block;
+  }

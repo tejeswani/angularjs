@@ -1,0 +1,22 @@
+<!-- app.component.html -->
+<div id="img">
+    <div class="newStyle">
+            <label for="Uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="Uname" [(ngModel)]="userName"><br>
+    
+    
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" [(ngModel)]="password" > <br>
+    
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter emailid" [(ngModel)]="emailId"><br>
+    
+            <button type="submit" (click)="submit()">Login</button><br>
+            <label>
+                <input type="checkbox" checked="checkboxvalue" (click)="checkBox($event)" [(ngModel)]="checkboxvalue"> Remember Me<br>
+            </label>
+        </div>
+        <div class="newStyle"></div>
+        </div>
+       
+       
