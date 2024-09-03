@@ -1,0 +1,21 @@
+ul li {   
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 127, 170);
+    height: 40px;
+}
+a {
+    line-height: 40px;
+    color:beige;
+    margin: 0 20px;
+    padding: 10px 10px; /*padding:10 * 10 2-dimensional (horizontal/vertical)*/
+}
+.active{
+    background-color: blue;
+}

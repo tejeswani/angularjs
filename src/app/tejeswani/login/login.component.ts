@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  userName:any;
+
+ // city:string="Hyderabad";
+
+ //path:string = "src/assets/Images/netflix-login-page.jpg";
+  
+ userName:any;
   password:any;
   emailId:any;
   checkboxvalue:any;
@@ -28,6 +33,4 @@ export class LoginComponent implements OnInit {
     this.checkboxvalue = event.target.checked;
     console.log(this.checkboxvalue)
   }
-  // imageUrl = 'src/assets/Images/netflix-login-page.jpg';
-
-}
+  }
