@@ -1,0 +1,16 @@
+comit the code from source code
+Add the message to commit the files
+git init (initialize)
+git add .(. means current directory)
+git commit -m "git1-commands"
+git push
+cd folder name(step in to the directory)
+cd ..(one step back in directory) 
+cd ../../ (two step back from the directory)
+git branch <new_branch name>
+git checkout(you create a new branch off main using git branch new_branch . Once created you can then use git checkout new_branch to switch to that branch.)
+git ls (list the contents of the current working directory)
+.gitignore (you can ignore the unwanted files before commiting the  source code)
+git pull (git pull= git fetch + git merge)
+git status (present working directory)
+
