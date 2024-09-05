@@ -4,7 +4,7 @@ ng generate directive <directive-name> -- |pipe|service|class|guard|interface|en
 ng generate interface <interface-name> --
 ng generate enum <enum-name> -- Enum are very useful in all the programming languages. What is Enum ?
 ng build
-ng test
+ng test -- what is Karma ? Karma is a testing framework for Angular. This is very important.
 ng e2e -- end2end test
 ng help
 npm install -g @angular/cli@17
