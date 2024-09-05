@@ -1,0 +1,15 @@
+ng serve -> Run your application. Code changes will be reflected on the fly.
+ng generate component <component-name> -- 
+ng generate directive <directive-name> -- |pipe|service|class|guard|interface|enum|module
+ng generate interface <interface-name> --
+ng generate enum <enum-name> -- Enum are very useful in all the programming languages. What is Enum ?
+ng build
+ng test
+ng e2e -- end2end test
+ng help
+npm install -g @angular/cli@17
+ng config -- to edit angular.json file -- Note: Option names in the configuration file must use "camelCase", while option names supplied to commands must be dash-case.
+
+
+
+
