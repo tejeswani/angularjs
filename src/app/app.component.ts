@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularjs';
 
+  data1="This is demo of input decerator"
+
 }

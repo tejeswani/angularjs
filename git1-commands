@@ -1,8 +1,9 @@
 comit the code from source code
 Add the message to commit the files
 git init (initialize)
-git add .(. means current directory)
-git commit -m "git1-commands"
+git add .(. means current directory- add all the files to git)
+git add file name(add selected file to the git)
+git commit -m "message"
 git push
 cd folder name(step in to the directory)
 cd ..(one step back in directory) 
@@ -13,4 +14,5 @@ git ls (list the contents of the current working directory)
 .gitignore (you can ignore the unwanted files before commiting the  source code)
 git pull (git pull= git fetch + git merge)
 git status (present working directory)
+
 

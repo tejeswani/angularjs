@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule,Routes } from '@angular/router';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ChildComponent } from './child/child.component';
 
 
 const routes:Routes=[
@@ -34,7 +35,8 @@ const routes:Routes=[
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ChildComponent
      
   ],
   imports: [
