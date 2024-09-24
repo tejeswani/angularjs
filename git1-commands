@@ -14,5 +14,5 @@ git ls (list the contents of the current working directory)
 .gitignore (you can ignore the unwanted files before commiting the  source code)
 git pull (git pull= git fetch + git merge)
 git status (present working directory)
-
+git commit --amend
 

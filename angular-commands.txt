@@ -11,5 +11,7 @@ npm install -g @angular/cli@17
 ng config -- to edit angular.json file -- Note: Option names in the configuration file must use "camelCase", while option names supplied to commands must be dash-case.
 
 
-
+npm i -g npm-check-updates - added 1 package in 5s
+ncu -u - Upgrading C:\Users\Public\Tejeswani\angularjs\package.json
+npm i - npm install
 
