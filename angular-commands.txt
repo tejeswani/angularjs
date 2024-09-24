@@ -11,7 +11,12 @@ npm install -g @angular/cli@17
 ng config -- to edit angular.json file -- Note: Option names in the configuration file must use "camelCase", while option names supplied to commands must be dash-case.
 
 
-npm i -g npm-check-updates - added 1 package in 5s
-ncu -u - Upgrading C:\Users\Public\Tejeswani\angularjs\package.json
-npm i - npm install
+npm i -g npm-check-updates : added 1 package in 5s
+ncu -u : Upgrading C:\Users\Public\Tejeswani\angularjs\package.json (npm-check-updates - ncu)
+npm i : npm install
+
+ng --version: 18.2.5
+Fixing the TypeScript version issue : Failed to initialize Angular compilation - The Angular Compiler requires TypeScript >=5.4.0 and <5.6.0 but 5.6.2 was found instead.
+npm uninstall -d TypeScript
+npm install -d typescript@5.6.0
 

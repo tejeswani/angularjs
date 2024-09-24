@@ -15,4 +15,6 @@ git ls (list the contents of the current working directory)
 git pull (git pull= git fetch + git merge)
 git status (present working directory)
 git commit --amend
+git commit -a -m 'we can add and commit using one command'
+git add .; git commit -m 'we can use all in one command'; git push;
 
